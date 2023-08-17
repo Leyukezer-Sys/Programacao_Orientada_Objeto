@@ -94,7 +94,7 @@ namespace ContaBancaria
         }
         public override string ToString()
         {
-            return $"{this.agencia};{this.conta};{this.nome};{this.saldo}";
+            return $"{this.agencia}|{this.conta}|{this.nome}|{this.saldo}";
         }
     }
 }
