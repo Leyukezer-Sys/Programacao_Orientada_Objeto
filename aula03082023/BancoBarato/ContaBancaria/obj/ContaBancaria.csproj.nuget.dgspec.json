@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2022202060022\\Source\\Repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj": {}
+    "C:\\Users\\2022202060022\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2022202060022\\Source\\Repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj": {
+    "C:\\Users\\2022202060022\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2022202060022\\Source\\Repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj",
+        "projectUniqueName": "C:\\Users\\2022202060022\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj",
         "projectName": "ContaBancaria",
-        "projectPath": "C:\\Users\\2022202060022\\Source\\Repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj",
+        "projectPath": "C:\\Users\\2022202060022\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\ContaBancaria.csproj",
         "packagesPath": "C:\\Users\\2022202060022\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\2022202060022\\Source\\Repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula03082023\\BancoBarato\\ContaBancaria\\obj\\",
         "projectStyle": "PackageReference",

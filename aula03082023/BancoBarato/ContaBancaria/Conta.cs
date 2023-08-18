@@ -10,7 +10,7 @@ namespace ContaBancaria
     public class Conta
     {
         private int agencia, conta;
-        private string nome;
+        private string nome, historico = "========= MOVIMENTAÇÃO =========";
         private double saldo;
 
         public Conta(int agencia, int conta, string nome, double saldo)
@@ -41,6 +41,13 @@ namespace ContaBancaria
             }
             else this.saldo = valor;
         }
+        public void setHistórico(string descri,string sinal, double valor)
+        {
+            this.historico += $"\n" +
+                $"** {descri}\n" +
+                $"*** VALOR: R$ {sinal}{valor.ToString("N2")}" +
+                "\n================================";
+        }
         public int getAgencia()
         {
             return this.agencia;
@@ -57,6 +64,10 @@ namespace ContaBancaria
         {
             return this.saldo;
         }
+        public string getHistorico()
+        {
+            return this.historico;
+        }
         public void Depositar(double valor)
         {
             if (valor < 0)
@@ -70,6 +81,7 @@ namespace ContaBancaria
                 Console.Write($"*Saldo Atual: ");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write(this.saldo.ToString("C"));
+                setHistórico($"Transferencia de {getNome()}", "+", valor);
                 Console.ResetColor();
             }
         }
@@ -89,6 +101,7 @@ namespace ContaBancaria
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write(this.saldo.ToString("C"));
                     Console.ResetColor();
+                    setHistórico($"Transferencia para {getNome()}", "-", valor);
                 }
             }else Console.WriteLine("Valor Não pode ser Negativo");
         }

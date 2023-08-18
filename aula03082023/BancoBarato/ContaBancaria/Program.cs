@@ -61,9 +61,10 @@ do
         "2 - Sacar da Conta Bancaria\n" +
         "3 - Transferir Para outra Conta\n" +
         "4 - Mostrar Saldo Da Conta Principal\n" +
-        "5 - Cadastrar Nova Conta\n" +
-        "6 - Mostrar Contas Cadastradas\n" +
-        "7 - Acessar outra Conta\n" +
+        "5 - Movimentação da Conta Principal\n" +
+        "6 - Cadastrar Nova Conta\n" +
+        "7 - Mostrar Contas Cadastradas\n" +
+        "8 - Acessar outra Conta\n" +
         "0 - Encerrar Operação (Sair)");
     while (!int.TryParse(Console.ReadLine(), out op))
     {
@@ -77,9 +78,10 @@ do
         "2 - Sacar da Conta Bancaria\n" +
         "3 - Transferir Para outra Conta\n" +
         "4 - Mostrar Saldo Da Conta Principal\n" +
-        "5 - Cadastrar Nova Conta\n" +
-        "6 - Mostrar Contas Cadastradas\n" +
-        "7 - Acessar outra Conta\n" +
+        "5 - Movimentação da Conta Principal\n" +
+        "6 - Cadastrar Nova Conta\n" +
+        "7 - Mostrar Contas Cadastradas\n" +
+        "8 - Acessar outra Conta\n" +
         "0 - Encerrar Operação (Sair)");
     };
 
@@ -88,6 +90,7 @@ do
         Console.Write("*Digite o Valor do Depósito: ");
         double deposito = double.Parse(Console.ReadLine());
         contaPrincipal.Depositar(deposito);
+        contaPrincipal.setHistórico($"Deposito","+", (deposito));
         Console.ReadKey();  
     }
     if (op == 2)
@@ -95,11 +98,43 @@ do
         Console.Write("*Digite o Valor do Saque: ");
         double saque = double.Parse(Console.ReadLine());
         contaPrincipal.Sacar(saque);
+        contaPrincipal.setHistórico($"Saque", "-", saque);
         Console.ReadKey();
     }
     if (op == 3)
     {
-        //Tranferencia
+        Console.Write("*Digite o Valor da Tranferencia: ");
+        double deposito = double.Parse(Console.ReadLine());
+        Console.Write("**Digite a Agencia Para Tranferencia: ");
+        while (!int.TryParse(Console.ReadLine(), out agencia))
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"    !! Digite apenas numeros !!");
+            Console.ResetColor();
+            Console.Write("**Digite a Agencia Para Tranferencia: ");
+        };
+
+        Console.Write("**Digite o Numero da Conta para Transferencia: ");
+        while (!int.TryParse(Console.ReadLine(), out conta))
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"    !! Digite apenas numeros !!");
+            Console.ResetColor();
+            Console.Write("**Digite o Numero da Conta para Transferencia: ");
+        };
+
+        foreach (Conta contas in listaContas)
+        {
+            if (agencia == contas.getAgencia() && conta == contas.getConta())
+            {
+                contaPrincipal.Sacar(deposito);
+                contas.Depositar(deposito);
+                Console.WriteLine("Transferencia Realizado com sucesso!");
+
+                Console.ReadKey();
+            }
+        }
+        Console.ReadKey();
     }
     if (op == 4)
     {
@@ -113,6 +148,11 @@ do
         Console.ReadKey();
     }
     if (op == 5)
+    {
+        Console.WriteLine(contaPrincipal.getHistorico()); 
+        Console.ReadKey();
+    }
+    if (op == 6)
     {
         string cond = "";
         do
@@ -137,7 +177,7 @@ do
             cond = Console.ReadLine().ToUpper();
         } while (cond.Equals("S")||cond.Equals("SIM"));
     }
-    if (op == 6)
+    if (op == 7)
     {
         foreach (Conta contas in listaContas)
         {
@@ -151,7 +191,7 @@ do
         }
         Console.ReadKey();
     }
-    if (op == 7)
+    if (op == 8)
     {
         Console.WriteLine("==== ACESSAR OUTRA CONTA ====");
         Console.Write("**Digite a Agencia de Acesso: ");
