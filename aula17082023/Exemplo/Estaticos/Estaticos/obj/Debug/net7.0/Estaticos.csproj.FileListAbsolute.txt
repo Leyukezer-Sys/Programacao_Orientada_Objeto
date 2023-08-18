@@ -1,0 +1,15 @@
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.csproj.AssemblyReference.cache
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.AssemblyInfoInputs.cache
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.AssemblyInfo.cs
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.csproj.CoreCompileInputs.cache
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.exe
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.deps.json
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.runtimeconfig.json
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.dll
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.pdb
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.dll
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\refint\Estaticos.dll
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.pdb
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.genruntimeconfig.cache
+C:\Users\2022202060022\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\ref\Estaticos.dll
