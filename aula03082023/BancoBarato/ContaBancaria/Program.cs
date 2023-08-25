@@ -17,6 +17,22 @@ while (String.IsNullOrWhiteSpace(nome))
     Console.Write(@"    Digite o Nome do Titular da Conta: ");
     nome = Console.ReadLine().ToUpper();
 }
+Console.Write(@"    Digite o CPF do Titular da Conta: ");
+string cpf = Console.ReadLine().ToUpper();
+while (String.IsNullOrWhiteSpace(cpf) && Validacao.ValidarCpg(cpf))
+{
+    Console.WriteLine(@"    !! Digite um CPF Válido !!");
+    Console.Write(@"    Digite o CPF do Titular da Conta: ");
+    cpf = Console.ReadLine().ToUpper();
+}
+Console.Write(@"    Digite o Email do Titular da Conta: ");
+string email = Console.ReadLine().ToUpper();
+while (String.IsNullOrWhiteSpace(nome))
+{
+    Console.WriteLine(@"    !! Digite um Email Válido !!");
+    Console.Write(@"    Digite o Email do Titular da Conta: ");
+    email = Console.ReadLine().ToUpper();
+}
 
 Console.Write(@"    Digite a Agencia da Conta: ");
 int agencia = 0;
@@ -48,14 +64,14 @@ while (!double.TryParse(Console.ReadLine(),out saldo))
     Console.Write(@"    Digite o Saldo Inicial da Conta: ");
 }
 
-contaPrincipal = new Conta(agencia,conta,nome,saldo);
+contaPrincipal = new Conta(nome, cpf, email, agencia,conta,saldo);
 listaContas.Add(contaPrincipal);
 
 int op = -1;
 do
 {
     Console.Clear();
-    Console.WriteLine($"TITULAR DA CONTA PRINCIPAL: {contaPrincipal.getNome()}");
+    Console.WriteLine($"TITULAR DA CONTA PRINCIPAL: {contaPrincipal.getTitular().getNome()}");
     Console.WriteLine("*Escolha uma opção:\n" +
         "1 - Depositar na Conta Bancaria\n" +
         "2 - Sacar da Conta Bancaria\n" +
@@ -138,7 +154,7 @@ do
     }
     if (op == 4)
     {
-        Console.WriteLine($"*Nome do Titular: {contaPrincipal.getNome()}");
+        Console.WriteLine($"*Nome do Titular: {contaPrincipal.getTitular().getNome()}");
         Console.WriteLine($"*Agencia da Conta: {contaPrincipal.getAgencia()}");
         Console.WriteLine($"*Número da Conta: {contaPrincipal.getConta()}");
         Console.Write($"*Saldo: ");
@@ -159,7 +175,29 @@ do
         {
             Console.WriteLine("* Cadastro de Nova Conta*");
             Console.Write(@"    Digite o Nome do Titular da Conta: ");
-            string nomeSec = Console.ReadLine().ToUpper();
+            nome = Console.ReadLine().ToUpper();
+            while (String.IsNullOrWhiteSpace(nome))
+            {
+                Console.WriteLine(@"    !! Digite um nome Válido !!");
+                Console.Write(@"    Digite o Nome do Titular da Conta: ");
+                nome = Console.ReadLine().ToUpper();
+            }
+            Console.Write(@"    Digite o CPF do Titular da Conta: ");
+            cpf = Console.ReadLine().ToUpper();
+            while (String.IsNullOrWhiteSpace(cpf) && Validacao.ValidarCpg(cpf))
+            {
+                Console.WriteLine(@"    !! Digite um CPF Válido !!");
+                Console.Write(@"    Digite o CPF do Titular da Conta: ");
+                cpf = Console.ReadLine().ToUpper();
+            }
+            Console.Write(@"    Digite o Email do Titular da Conta: ");
+            email = Console.ReadLine().ToUpper();
+            while (String.IsNullOrWhiteSpace(nome))
+            {
+                Console.WriteLine(@"    !! Digite um Email Válido !!");
+                Console.Write(@"    Digite o Email do Titular da Conta: ");
+                email = Console.ReadLine().ToUpper();
+            }
 
             Console.Write(@"    Digite a Agencia da Conta: ");
             int agenciaSec = int.Parse(Console.ReadLine());
@@ -170,7 +208,7 @@ do
             Console.Write(@"    Digite o Saldo Inicial da Conta: ");
             double saldoSec = double.Parse(Console.ReadLine());
 
-            Conta contaSecundaria = new Conta(agenciaSec, contaSec, nomeSec, saldoSec);
+            Conta contaSecundaria = new Conta(nome,cpf, email, agenciaSec, contaSec, saldoSec);
             listaContas.Add(contaSecundaria);
 
             Console.WriteLine("Deseja Cadastrar nova Conta? (s/sim)");
@@ -182,7 +220,7 @@ do
         foreach (Conta contas in listaContas)
         {
             Console.WriteLine("------");
-            Console.WriteLine($"*Nome do Titular: {contas.getNome()}");
+            Console.WriteLine($"*Nome do Titular: {contas.getTitular().getNome()}");
             Console.Write($"*Saldo: ");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(contas.getSaldo().ToString("C"));

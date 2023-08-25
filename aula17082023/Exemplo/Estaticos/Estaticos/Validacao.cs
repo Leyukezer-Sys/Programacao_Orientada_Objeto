@@ -10,7 +10,7 @@ namespace Estaticos
     {
         public static string Cpf { get; set; }
 
-        public static bool ValidarCpg(string cpf)
+        public static bool ValidarCpf(string cpf)
         {
             bool resultado = false;
             cpf = cpf.Replace(".","");

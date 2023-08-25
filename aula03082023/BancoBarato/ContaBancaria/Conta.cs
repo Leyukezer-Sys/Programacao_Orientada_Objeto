@@ -9,15 +9,16 @@ namespace ContaBancaria
 {
     public class Conta
     {
+        private Titular titular;
         private int agencia, conta;
-        private string nome, historico = "========= MOVIMENTAÇÃO =========";
+        private string historico = "========= MOVIMENTAÇÃO =========";
         private double saldo;
 
-        public Conta(int agencia, int conta, string nome, double saldo)
+        public Conta(string nome, string cpf, string email, int agencia, int conta, double saldo)
         {
             setAgencia(agencia);
             setConta(conta);
-            setNome(nome);           
+            setTitular(nome, cpf, email);           
             setSaldo(saldo);
         }
         public void setAgencia(int numero)
@@ -28,10 +29,14 @@ namespace ContaBancaria
         {
             this.conta = numero;
         }
-        public void setNome(string nome)
+        public void setTitular(string nome, string cpf, string email)
         {
-            this.nome = nome;
-            // throw new Exception("");
+            Titular titularConta = new Titular(nome, cpf, email);
+            this.titular = titularConta;
+        }
+        public void setTitular(Titular titularConta)
+        {
+            this.titular = titularConta;
         }
         public void setSaldo(double valor)
         {
@@ -56,9 +61,9 @@ namespace ContaBancaria
         {
             return this.conta;
         }
-        public string getNome()
+        public Titular getTitular()
         {
-            return this.nome;
+            return this.titular;
         }
         public double getSaldo()
         {
@@ -81,7 +86,7 @@ namespace ContaBancaria
                 Console.Write($"*Saldo Atual: ");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write(this.saldo.ToString("C"));
-                setHistórico($"Transferencia de {getNome()}", "+", valor);
+                setHistórico($"Transferencia de {getTitular().getNome()}", "+", valor);
                 Console.ResetColor();
             }
         }
@@ -101,13 +106,13 @@ namespace ContaBancaria
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write(this.saldo.ToString("C"));
                     Console.ResetColor();
-                    setHistórico($"Transferencia para {getNome()}", "-", valor);
+                    setHistórico($"Transferencia para {getTitular().getNome()}", "-", valor);
                 }
             }else Console.WriteLine("Valor Não pode ser Negativo");
         }
         public override string ToString()
         {
-            return $"{this.agencia}|{this.conta}|{this.nome}|{this.saldo}";
+            return $"{this.agencia}|{this.conta}|{this.titular}|{this.saldo}";
         }
     }
 }

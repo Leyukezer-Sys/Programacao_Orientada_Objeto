@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "ContaBancaria/1.0.0": {
+        "dependencies": {
+          "Estaticos": "1.0.0.0"
+        },
         "runtime": {
           "ContaBancaria.dll": {}
+        }
+      },
+      "Estaticos/1.0.0.0": {
+        "runtime": {
+          "Estaticos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "ContaBancaria/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Estaticos/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

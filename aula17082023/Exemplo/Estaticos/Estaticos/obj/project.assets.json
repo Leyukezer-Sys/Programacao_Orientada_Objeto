@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\2022202060022\\.nuget\\packages\\": {},
+    "C:\\Users\\leyuk\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2022202060022\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula17082023\\Exemplo\\Estaticos\\Estaticos\\Estaticos.csproj",
+      "projectUniqueName": "C:\\Users\\leyuk\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula17082023\\Exemplo\\Estaticos\\Estaticos\\Estaticos.csproj",
       "projectName": "Estaticos",
-      "projectPath": "C:\\Users\\2022202060022\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula17082023\\Exemplo\\Estaticos\\Estaticos\\Estaticos.csproj",
-      "packagesPath": "C:\\Users\\2022202060022\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2022202060022\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula17082023\\Exemplo\\Estaticos\\Estaticos\\obj\\",
+      "projectPath": "C:\\Users\\leyuk\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula17082023\\Exemplo\\Estaticos\\Estaticos\\Estaticos.csproj",
+      "packagesPath": "C:\\Users\\leyuk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leyuk\\source\\repos\\Leyukezer-Sys\\Programacao_Orientada_Objeto\\aula17082023\\Exemplo\\Estaticos\\Estaticos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\2022202060022\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
