@@ -5,6 +5,10 @@
     "\\Exemplo\\Estaticos",
     "\\Exemplo\\Estaticos\\Estaticos"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\Exemplo\\Estaticos\\Estaticos\\Validacao.cs",
+=======
+  "SelectedNode": "\\Exemplo\\Estaticos\\Estaticos\\Program.cs",
+>>>>>>> 7df0480478d2378673e8a576904a7e3d417ac185
   "PreviewInSolutionExplorer": false
 }

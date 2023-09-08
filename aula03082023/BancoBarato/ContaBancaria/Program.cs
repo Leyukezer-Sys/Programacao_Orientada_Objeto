@@ -1,8 +1,4 @@
-﻿using ContaBancaria;
-using System.Security.Cryptography;
-
-
-List<Conta> listaContas = new List<Conta>();
+﻿List<Conta> listaContas = new List<Conta>();
 Conta contaPrincipal;
 
 Console.WriteLine("------ BANCO BARATO ------");
@@ -19,7 +15,7 @@ while (String.IsNullOrWhiteSpace(nome))
 }
 Console.Write(@"    Digite o CPF do Titular da Conta: ");
 string cpf = Console.ReadLine().ToUpper();
-while (String.IsNullOrWhiteSpace(cpf) && Validacao.ValidarCpg(cpf))
+while (String.IsNullOrWhiteSpace(cpf))
 {
     Console.WriteLine(@"    !! Digite um CPF Válido !!");
     Console.Write(@"    Digite o CPF do Titular da Conta: ");
@@ -121,6 +117,12 @@ do
     {
         Console.Write("*Digite o Valor da Tranferencia: ");
         double deposito = double.Parse(Console.ReadLine());
+        while (contaPrincipal.VerificarSaldo(deposito))
+        {
+            Console.WriteLine($"Você possui {contaPrincipal.getSaldo().ToString("C")} de SALDO");
+            Console.Write("*Digite o Valor Válido para Tranferencia: ");
+            deposito = double.Parse(Console.ReadLine());
+        }
         Console.Write("**Digite a Agencia Para Tranferencia: ");
         while (!int.TryParse(Console.ReadLine(), out agencia))
         {
@@ -184,7 +186,7 @@ do
             }
             Console.Write(@"    Digite o CPF do Titular da Conta: ");
             cpf = Console.ReadLine().ToUpper();
-            while (String.IsNullOrWhiteSpace(cpf) && Validacao.ValidarCpg(cpf))
+            while (String.IsNullOrWhiteSpace(cpf))
             {
                 Console.WriteLine(@"    !! Digite um CPF Válido !!");
                 Console.Write(@"    Digite o CPF do Titular da Conta: ");

@@ -1,8 +1,9 @@
 ﻿using Estaticos;
 
-Console.WriteLine("Hello, World!");
+Console.Write("Digite um CPF: ");
+string cpfUsuario = Console.ReadLine().ToLower();
 
-if (Validacao.ValidarCpf("058 .570.652-24 "))
+if (Validacao.ValidarCpf(cpfUsuario))
 {
     Console.WriteLine("CPF VÁLIDO!");
 }
