@@ -18,3 +18,13 @@ C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082
 C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.dll
 C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\refint\Estaticos.dll
 C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.pdb
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.exe
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.deps.json
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.runtimeconfig.json
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.dll
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\bin\Debug\net7.0\Estaticos.pdb
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.AssemblyInfoInputs.cache
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.AssemblyInfo.cs
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.csproj.CoreCompileInputs.cache
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\Estaticos.genruntimeconfig.cache
+C:\Users\leyuk\source\repos\Leyukezer-Sys\Programacao_Orientada_Objeto\aula17082023\Exemplo\Estaticos\Estaticos\obj\Debug\net7.0\ref\Estaticos.dll

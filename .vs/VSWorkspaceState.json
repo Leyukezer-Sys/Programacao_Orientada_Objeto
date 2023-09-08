@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\aula03082023",
+    "\\aula03082023\\BancoBarato",
+    "\\aula03082023\\BancoBarato\\ContaBancaria",
+    "\\aula17082023",
+    "\\aula17082023\\Exemplo"
   ],
-  "SelectedNode": "\\ListaFixacao.sln",
+  "SelectedNode": "\\aula03082023\\BancoBarato\\ContaBancaria\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
