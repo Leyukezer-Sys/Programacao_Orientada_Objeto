@@ -38,6 +38,7 @@ while (cond.Equals("SIM") || cond.Equals("S"))
 
     Console.WriteLine($"\n Quantidade de Acertos: {prova.Acertos()}");
     Console.WriteLine($"\n Nota do {prova.nomeAluno}: {prova.Nota()}");
+
     prova.Maior();
 
     Console.WriteLine("\nDeseja adicionar outro Aluno? (s/sim)");
