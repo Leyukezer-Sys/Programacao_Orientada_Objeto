@@ -2,11 +2,11 @@
 {
     private int numPassagens = 0, numeroVoo = 0;
     private DateTime dataVoo = new DateTime();
-    private bool[] acentos = {  };
+    private bool[] acentos = { };
     public Voo(int diaDoVoo, int mesDoVoo, int anoDoVoo, int horaDoVoo, int quantPassagensVoo)
     {
         setNumeroVoo();
-        setDataVoo(diaDoVoo,mesDoVoo, anoDoVoo, horaDoVoo);
+        setDataVoo(diaDoVoo, mesDoVoo, anoDoVoo, horaDoVoo);
         setNumPassagens(quantPassagensVoo);
     }
     public void setNumeroVoo()
@@ -56,9 +56,13 @@
             {
                 return i;
             }
+            else if (i == (acentos.Length - 1))
+            {
+                i = 0;
+            }
         }
 
-        return -1;
+        return 0;
     }
     public bool Verifica(int numCadeira)
     {
@@ -93,29 +97,51 @@
         {
             if (i < 9)
             {
-                if (contColu < 4)
+                if (contColu < 9)
                 {
-                    if (contColu != 2)
+                    if (contColu == 3 || contColu == 7)
                     {
-                        if (acentos[i] == false)
-                        {
-                            aviao += $"[\u001b[32m0{i+1}\u001b[0m]";
-                        }
-                        else
-                        {
-                            aviao += $"[\u001b[31m0{i + 1}\u001b[0m]";
-                        }   
+                        aviao += $" ";
+                    }
+                    if (acentos[i] == false)
+                    {
+                        aviao += $"[\u001b[32m00{i + 1}\u001b[0m]";
                     }
                     else
                     {
-                        if (acentos[i] == false)
-                        {
-                            aviao += $" [\u001b[32m0{i + 1}\u001b[0m] ";
-                        }
-                        else
-                        {
-                            aviao += $" [\u001b[31m0{i + 1}\u001b[0m] ";
-                        }
+                        aviao += $"[\u001b[31m00{i + 1}\u001b[0m]";
+                    }
+                    contColu++;
+                }
+                else
+                {
+                    contColu = 0;
+                    if (acentos[i] == false)
+                    {
+                        aviao += $"[\u001b[32m00{i + 1}\u001b[0m]";
+                    }
+                    else
+                    {
+                        aviao += $"[\u001b[31m00{i + 1}\u001b[0m]";
+                    }
+                    aviao += $" |\n| ";
+                }
+            }
+            else if (i >= 9 && i < 99)
+            {
+                if (contColu < 9)
+                {
+                    if (contColu == 3 || contColu == 7)
+                    {
+                        aviao += $" ";
+                    }
+                    if (acentos[i] == false)
+                    {
+                        aviao += $"[\u001b[32m0{i + 1}\u001b[0m]";
+                    }
+                    else
+                    {
+                        aviao += $"[\u001b[31m0{i + 1}\u001b[0m]";
                     }
                     contColu++;
                 }
@@ -135,29 +161,19 @@
             }
             else
             {
-                if (contColu < 4)
+                if (contColu < 9)
                 {
-                    if (contColu != 2)
+                    if (contColu == 3 || contColu == 7)
                     {
-                        if (acentos[i] == false)
-                        {
-                            aviao += $"[\u001b[32m{i + 1}\u001b[0m]";
-                        }
-                        else
-                        {
-                            aviao += $"[\u001b[31m{i + 1}\u001b[0m]";
-                        }
+                        aviao += $" ";
+                    }
+                    if (acentos[i] == false)
+                    {
+                        aviao += $"[\u001b[32m{i + 1}\u001b[0m]";
                     }
                     else
                     {
-                        if (acentos[i] == false)
-                        {
-                            aviao += $" [\u001b[32m{i + 1}\u001b[0m] ";
-                        }
-                        else
-                        {
-                            aviao += $" [\u001b[31m{i + 1}\u001b[0m] ";
-                        }
+                        aviao += $"[\u001b[31m{i + 1}\u001b[0m]";
                     }
                     contColu++;
                 }

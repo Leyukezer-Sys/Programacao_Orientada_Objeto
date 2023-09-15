@@ -14,8 +14,7 @@
         "outputPath": "C:\\Users\\2022202060022\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\GuicheVoo\\GuicheVoo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\2022202060022\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leyuk\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj": {}
+    "C:\\Users\\2022202060022\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leyuk\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj": {
+    "C:\\Users\\2022202060022\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leyuk\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj",
+        "projectUniqueName": "C:\\Users\\2022202060022\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj",
         "projectName": "QuestaoProva",
-        "projectPath": "C:\\Users\\leyuk\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj",
-        "packagesPath": "C:\\Users\\leyuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leyuk\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\obj\\",
+        "projectPath": "C:\\Users\\2022202060022\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\QuestaoProva.csproj",
+        "packagesPath": "C:\\Users\\2022202060022\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2022202060022\\Documents\\GitHub\\Programacao_Orientada_Objeto\\aula31082023\\Atividade\\QuestaoProva\\QuestaoProva\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2022202060022\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,14 +7,14 @@
     List<char> alternativasAluno = new List<char>();
     public Prova maior;
 
-    public Prova(string nome)
+    public Prova(string nome, int quantQuestoes)
     {
-        gabarito = new Gabarito();
+        gabarito = new Gabarito(quantQuestoes);
         this.nomeAluno = nome;
     }
     public Prova(string nome, Prova provaMaior)
     {
-        gabarito = new Gabarito();
+        gabarito = new Gabarito(provaMaior.gabarito.getGabarito());
         this.nomeAluno = nome;
         this.maior = provaMaior;
     }
@@ -24,19 +24,18 @@
     }
     public int Acertos()
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < this.gabarito.getGabarito().Count; i++)
         {
             if (gabarito.RespostaQuestao(i) == alternativasAluno[i])
             {
                 acertos++;
             }
         }
-
         return acertos;
     }
-    public int Nota()
+    public int Nota(int nota)
     {
-        notaAluno = acertos * 2;
+        notaAluno = acertos * (nota/this.gabarito.getGabarito().Count);
 
         return notaAluno;
     }
@@ -50,5 +49,4 @@
             maior.alternativasAluno = alternativasAluno;
         }
     }
-
 }
