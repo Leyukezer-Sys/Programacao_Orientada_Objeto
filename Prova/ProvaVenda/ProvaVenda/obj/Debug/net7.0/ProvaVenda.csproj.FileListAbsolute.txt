@@ -1,0 +1,15 @@
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\bin\Debug\net7.0\ProvaVenda.exe
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\bin\Debug\net7.0\ProvaVenda.deps.json
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\bin\Debug\net7.0\ProvaVenda.runtimeconfig.json
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\bin\Debug\net7.0\ProvaVenda.dll
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\bin\Debug\net7.0\ProvaVenda.pdb
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.csproj.AssemblyReference.cache
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.AssemblyInfoInputs.cache
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.AssemblyInfo.cs
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.csproj.CoreCompileInputs.cache
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.dll
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\refint\ProvaVenda.dll
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.pdb
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ProvaVenda.genruntimeconfig.cache
+C:\Users\leyuk\Documents\GitHub\Programacao_Orientada_Objeto\Prova\ProvaVenda\ProvaVenda\obj\Debug\net7.0\ref\ProvaVenda.dll
