@@ -1,0 +1,15 @@
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\bin\Debug\net7.0\loja_Eletronica.exe
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\bin\Debug\net7.0\loja_Eletronica.deps.json
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\bin\Debug\net7.0\loja_Eletronica.runtimeconfig.json
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\bin\Debug\net7.0\loja_Eletronica.dll
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\bin\Debug\net7.0\loja_Eletronica.pdb
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.csproj.AssemblyReference.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.AssemblyInfoInputs.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.AssemblyInfo.cs
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.csproj.CoreCompileInputs.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.dll
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\refint\loja_Eletronica.dll
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.pdb
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\loja_Eletronica.genruntimeconfig.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula09112023\loja_Eletronica\loja_Eletronica\obj\Debug\net7.0\ref\loja_Eletronica.dll
