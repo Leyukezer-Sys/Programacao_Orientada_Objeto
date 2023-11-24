@@ -1,14 +1,13 @@
 ﻿Console.WriteLine("====================== LOJA DE ELETRÔNICOS ======================");
 int op;
-List<Smartphone> smartphones = new List<Smartphone>();
-List<Laptop> laptops = new List<Laptop>();
-List<Camera> cameras = new List<Camera>();
+List<ProdutoEletronico> produtos = new List<ProdutoEletronico>();
 do
 {
     Console.WriteLine("\n\n$Escolha sua opção:\n" +
         "1 - Cadastrar Smartphone\n" +
         "2 - Cadastrar LapTop\n" +
         "3 - Cadastrar Camera\n" +
+        "4 - Mostrar Produtos Cadastrados\n" +
         "0 - Sair");
     Console.Write("Sua Escolha: ");
     while (!int.TryParse(Console.ReadLine(), out op))
@@ -55,7 +54,7 @@ do
                 _cond = Console.ReadLine().ToUpper();
             }
 
-            smartphones.Add(cadSmart);
+            produtos.Add(cadSmart);
             break;
         case 2:
             Console.WriteLine("--------- Cadastro LapTop ---------");
@@ -87,7 +86,7 @@ do
                 _cond = Console.ReadLine().ToUpper();
             }
 
-            laptops.Add(cadLaptop);
+            produtos.Add(cadLaptop);
             break;
         case 3:
             Console.WriteLine("--------- Cadastro Camera Fotográfica---------");
@@ -118,7 +117,16 @@ do
                 _cond = Console.ReadLine().ToUpper();
             }
 
-            cameras.Add(cadCame);
+            produtos.Add(cadCame);
+            break;
+        case 4:
+            Console.WriteLine("\nProdutos Loja Eletrônicos");
+            foreach (ProdutoEletronico produto in produtos)
+            {
+                Console.WriteLine($"Nome: {produto.getNome()}\n" +
+                    $"Marca: {produto.getMarca()}\n" +
+                    $"Ano Fabricação: {produto.getAnoFabricacao()}\n");
+            }
             break;
     }
 } while (op != 0);
