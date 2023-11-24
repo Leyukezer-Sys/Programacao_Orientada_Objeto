@@ -1,0 +1,15 @@
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\bin\Debug\net7.0\AtividadeEscola.exe
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\bin\Debug\net7.0\AtividadeEscola.deps.json
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\bin\Debug\net7.0\AtividadeEscola.runtimeconfig.json
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\bin\Debug\net7.0\AtividadeEscola.dll
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\bin\Debug\net7.0\AtividadeEscola.pdb
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.csproj.AssemblyReference.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.AssemblyInfoInputs.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.AssemblyInfo.cs
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.csproj.CoreCompileInputs.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.dll
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\refint\AtividadeEscola.dll
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.pdb
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\AtividadeEscola.genruntimeconfig.cache
+C:\Users\2022202060022\Documents\GitHub\Programacao_Orientada_Objeto\aula23112023\AtividadeEscola\AtividadeEscola\obj\Debug\net7.0\ref\AtividadeEscola.dll
