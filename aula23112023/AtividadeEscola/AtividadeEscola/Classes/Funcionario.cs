@@ -1,6 +1,6 @@
 ﻿public abstract class Funcionario
 {
-    private string _nome;
+    private string _nome { get; set; };
     private int _idade;
     private double _salario;
 
