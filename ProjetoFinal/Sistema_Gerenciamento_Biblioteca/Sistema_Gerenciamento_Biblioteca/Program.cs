@@ -1,4 +1,4 @@
-﻿
+﻿//  Alunos: Edson Fernando Souza Bezerra, Leyukezer Cruz
 int op = 0, opLR = 0;
 Biblioteca gerenciamento_bibliotecario = new Biblioteca();
 do
@@ -279,8 +279,6 @@ do
             break;
     }
 } while (op != 0);
-
-
 
 /*  Entrega: Os alunos devem entregar o código-fonte do projeto, devidamente
 comentado, explicando os blocos de código, e também, em formato de comentário,
